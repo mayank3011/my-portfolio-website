@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/75099a6928.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/media/favicon.ico" type="image/x-icon">
+    <title>Mayank Rajput - software Developer</title>
+</head>
+
+<body>
+    <div id="preloader"></div>
+
+    <!-- Stars Background -->
+    <section id="stars">
+        <div class="stars-01"></div>
+        <div class="stars-02"></div>
+        <div class="stars-03"></div>
+        <div class="stars-04"></div>
+    </section>
+    <!--=========================== Navigation bar================================ -->
+    <div class="mob-div" id="mob-navbar">
+        <div class="mob-nav-links">
+            <a href="#Home"><img class="mob-profile-pic" src="./media/mepink.jpeg" alt="profile-pic" style="width: 45px; height: 45px; border-radius:50% ;"></a>
+            <a href="#Home" id=""><i class="fas fa-home"></i></a>
+            <a href="#About" id=""><i class="fas fa-address-card"></i></a>
+            <a href="#projects" id=""><i class="fas fa-code"></i></a>
+            <a href="#contact" id=""><i class="fas fa-paper-plane"></i></a>
+        </div>
+    </div>
+    <section id="navbar1" class="nav1-div">
+        <nav>
+            <div class="nav1-list">
+                <a href="#Home">Home</a>
+                <a href="#About">About Me</a>
+                <a href="#Skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+        </nav>
+    </section>
+    <section id="Home">
+        <h1 class="typing">Namaste, I am <span class="awesome">Mayank</span></h1>
+        <p class="typing2">Software Developer</p>
+    </section>
+    <!-- =============== ABOUT ME SECTION =============== -->
+
+    <section id="About">
+        <article class="Article">
+            <div class="profile-pic"></div>
+            <div class="about-content">
+                <h3>Who is this guy?</h3>
+                <div data-aos="fade-up">
+                    <p>Hola! My name is Mayank Rajput, I am a <span>Software Developer</span> born in India with a
+                        <span>passion</span> for creating amazing stuff.</p>
+                    <p>I like tea and biscuits :)</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- =============================Skills=========================== -->
+    <section id="Skills">
+
+        <ul class="skills-bar-container">
+            <h1>My Skills</h1>
+            <li>
+                <div class="progressbar-title">
+                    <h2>HTML5</h2>
+                    <span class="percent" id="html-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressred" id="progress-html"></span>
+                </div>
+            </li>
+            <li>
+                <div class="progressbar-title">
+                    <h2>CSS / SASS</h2>
+                    <span class="percent" id="css-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressblue" id="progress-css"></span>
+                </div>
+            </li>
+
+            <li>
+                <div class="progressbar-title">
+                    <h2>JavaScript / jQuery</h2>
+                    <span class="percent" id="javascript-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progresspurple" id="progress-javascript"></span>
+                </div>
+            </li>
+
+            <li>
+                <div class="progressbar-title">
+                    <h2>C++</h2>
+                    <span class="percent" id="php-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressorange" id="progress-php"></span>
+                </div>
+            </li>
+
+            <li>
+                <div class="progressbar-title">
+                    <h2>Python</h2>
+                    <span class="percent" id="angular-pourcent"></span>
+                </div>
+                <div class="bar-container">
+                    <span class="progressbar progressgreen" id="progress-angular"></span>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- ===================Project section=========================== -->
+    <section id="projects" class="portfolio">
+        <h1>Things i am working on</h1>
+        <div class="card-deck">
+            <div data-aos="flip-right">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./media/my-firstproject.png" alt="Card image cap">
+                    <div class="card-body">
+
+                        <h5 class="card-title">My first responsive web design</h5>
+                        <p class="card-text">i have created this website on my early stages of learning</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-right">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./media/site-under.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Python Lyrics Genrator</h5>
+                        <p class="card-text">I have created this project as a knowledge enhancement for python  </p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="https://github.com/mayank3011/lyrics-genrator/blob/main/lyricsgenrator.py" target="_blank" class="card-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="card-link"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-left">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./media/site-under.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-left">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./media/site-under.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="flip-left">
+                <div class="card" style="width: 15rem;">
+                    <img class="card-img-top" src="./media/site-under.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+
+                    <div class="card-body">
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--======================CONTACTS=============================-->
+    <section id="contact">
+        <article class="cta">
+            <h5>Interested?</h5>
+            <p>Let's talk.</p>
+            <ul class="social-media">
+                <div data-aos="fade-right">
+                    <li><a href="mailto:mayankrajpu3012@gmail.com"><i class="fas fa-envelope"></i>Email</a></li>
+                </div>
+                <div data-aos="fade-right">
+                    <li><a href="tel:+91 7222973038 "><i class="fas fa-mobile-alt "></i>Mobile</a></li>
+                </div>
+                <div data-aos="fade-right">
+                    <li><a href="https://twitter.com/MayankR47345880 "><i class="fab fa-twitter "></i>Twitter</a></li>
+                </div>
+                <div data-aos="fade-right">
+                    <li><a href="hhttps://www.facebook.com/profile.php?id=100031600365164 "><i class="fab fa-facebook-f "></i>Facebook</a></li>
+                </div>
+                <div data-aos="fade-right">
+                    <li><a href="https://www.linkedin.com/in/mayank-rajput-6b71291b7/ "><i class="fab fa-linkedin-in "></i>LinkedIn</a></li>
+                </div>
+                <div data-aos="fade-right">
+                    <li><a href="https://www.instagram.com/rajput_mayank00/"><i class="fab fa-instagram "></i>Instagram</a></li>
+                </div>
+            </ul>
+        </article>
+        <div class="copy ">
+            <p>© Copyright 2022 Mayank Rajput</p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+
+</html>
